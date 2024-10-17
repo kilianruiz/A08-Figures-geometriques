@@ -1,0 +1,25 @@
+.radio-container {
+    display: flex;
+    gap: 10px; /* Ajusta el espacio entre los elementos si es necesario */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.radio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+    overflow: hidden; 
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+}
